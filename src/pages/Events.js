@@ -50,33 +50,47 @@ const Events = () => {
       <a href="/" className="event-button" >LunarHacks</a>
       
       <div 
-        style={{ display:"flex" }}
+        style={{ display:"flex"}}
       >
+  
         <img 
           src={SoLLogo} alt="Spark of Luminosity logo"
           style={{ width:"50%" }}
         />
         <div
-          style={{ width:"50%", paddingTop:"6%", paddingBottom:"10%", display:"flex", flexDirection:"column", justifyContent:"space-between", alignItems:"center" }}
+          style={{ width:"50%", display:"flex", flexDirection:"column", alignItems:"center" , paddingTop:"10%"}}
         >
+          <p
+              style={{ color:"#EC70A1", fontWeight:"bold", fontSize:"24px" }}
+            >
+              Thank you for coming to ...
+          </p>
+
           <img src={SoLText} alt="Spark of Luminosity" 
             style={{ width:"80%" }}
           />
-          <div>
-            <p
-              style={{ color:"#EC70A1", fontWeight:"bold", fontSize:"24px", marginBottom:"24px" }}
-            >
-              April 26th @ Carleton University
-            </p>
-            <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLScbndoP_zVvj2RsKam4-mmZ6n_YTY5-LmsqQERjhe_FAnFYfg/viewform?usp=sharing" className="reg-button"
-              style={{ fontSize:"28px", fontWeight:"bold", paddingLeft:"10%", paddingRight:"10%" }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              REGISTER NOW!
-            </a>
-          </div>
+
+<div className="orgLogos-container">
+  <a 
+    href="https://www.instagram.com/lunarhacks/" 
+    className="orgLogos"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={LH} alt="Lunar Hacks" />
+  </a>
+
+  <span className="separator">×</span>
+
+  <a 
+    href="https://syrc.ca/" 
+    className="orgLogos"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={syrc} alt="Spark Youth Robotics Club" />
+  </a>
+</div>
         </div>
       </div>
       <div
@@ -84,10 +98,10 @@ const Events = () => {
           }}
       >
         <div>
-          <p className="solheader">WHAT IS IT?</p>
+          <p className="solheader">WHAT WAS IT?</p>
           <p className="soltext" >
-            This spring LunarHacks and Spark Youth Robotics Club are presenting Spark of Luminosity! A children's symposium packed with a full day of workshops, crafts, experiments, and swag.
-            Come join us to learn about coding, robotics, and tons of epic STEAM concepts!
+            On April 26 2025 at Carleton University, Lunarhacks and Spark Youth Robotics Club presented Spark of Luminosity! A children's symposium packed with a full day of workshops, crafts, experiments, and swag.
+            70+ children from grades 1 to 8 joined us to learn about coding, robotics, and tons of epic STEAM concepts!
           </p>
           
         </div>
@@ -97,27 +111,6 @@ const Events = () => {
         className="sparkle"
         />
 
-      </div>
-      <div
-        style={{ marginTop:"18px" }}
-      >
-        <p className="solheader">WHO CAN PARTICIPATE?</p>
-        <p className="soltext" >
-          Any children in grade 1 to 8!</p>
-          <p className="soltext" >Grade 9 or older? Apply to become a volunteer!</p>
-          <p className="soltext" >16 and older? Apply to become a speaker!</p>
-          <div
-        style={{ marginTop:"5vh" }}
-      ></div>
-
-          <a 
-              href="https://forms.gle/tFciNSJS3PhvvMHy8" className="reg-button"
-              style={{ fontSize:"28px", fontWeight:"bold", paddingLeft:"3%", paddingRight:"3%" }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              APPLY TO VOLUNTEER OR BECOME A SPEAKER!
-            </a>
       </div>
       <div
         style={{ marginTop:"60px" }}
@@ -168,37 +161,7 @@ const Events = () => {
 
 
 
-        <p className="solheader">I HAVE MORE QUESTIONS!</p>
-        <p className="soltext">
-  Email us at 
-  <a href="mailto:hello@lunarhacks.com" style={{ color:"#BA1757", fontWeight:"bold" }}> hello@lunarhacks.com</a> 
-  <span style={{ margin: "0 4px" }}>or</span> 
-  <a href="mailto:spark.youthrc@gmail.com" style={{ color:"#BA1757", fontWeight:"bold" }}> spark.youthrc@gmail.com</a>; 
-  we'd be happy to chat!
-</p>
-
-
-<div className="orgLogos-container">
-  <a 
-    href="https://www.instagram.com/lunarhacks/" 
-    className="orgLogos"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src={LH} alt="Lunar Hacks" />
-  </a>
-
-  <span className="separator">×</span>
-
-  <a 
-    href="https://syrc.ca/" 
-    className="orgLogos"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src={syrc} alt="Spark Youth Robotics Club" />
-  </a>
-</div>
+        <p className="solheader">STAY TUNED FOR FUTURE EVENTS!</p>
 
 
 

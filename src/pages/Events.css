@@ -154,7 +154,7 @@ html {
 }
 
 .orgLogos-container {
-  padding-top: 3vh; /* Add padding at the top */
+  padding-top: -1vh; /* Add padding at the top */
   display: flex;
   align-items: center;
   justify-content: center;
