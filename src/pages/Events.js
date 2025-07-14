@@ -10,6 +10,9 @@ import Nokia from "../img/NOKIA.png";
 import DPI from "../img/DPI.png";
 import LH from "../img/logo.png";
 import syrc from "../img/syrc.png";
+import solOne from "../img/solOne.JPG";
+import solTwo from "../img/solTwo.jpg";
+import solThree from "../img/solThree.JPG";
 
 // should auto go to the start of the page
 
@@ -112,6 +115,13 @@ const Events = () => {
         />
 
       </div>
+
+      <div className="sol-photos">
+        <img src={solOne} alt="Spark of Luminosity 1" />
+        <img src={solTwo} alt="Spark of Luminosity 2" />
+        <img src={solThree} alt="Spark of Luminosity 3" />
+      </div>
+      
       <div
         style={{ marginTop:"60px" }}
       >
