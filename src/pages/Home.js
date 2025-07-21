@@ -53,11 +53,11 @@ const Home = () => {
           className="ab-txt"
         />
         <h2>LunarHacks strives to engage youth in the fields of
-STEM. We wish to create an encouraging environment
-for our participants of all ages to build the next
-generation of STEM leaders while breaking barriers that
-exist in today's society. The galaxy’s the limit.
-</h2>
+        STEM. We wish to create an encouraging environment
+        for our participants of all ages to build the next
+        generation of STEM leaders while breaking barriers that
+        exist in today's society. The galaxy’s the limit.
+        </h2>
       </section>
       <section id="pastEvents" ref={sectionRefs.pastEvents} className="section pastEvents-section">
         <h1>Past Events</h1>
@@ -143,10 +143,6 @@ exist in today's society. The galaxy’s the limit.
             />
             <h3>linda</h3>
           </div>
-
-        </div>
-        <div className="team">
-            
           
           <div className="profile">
             <img
